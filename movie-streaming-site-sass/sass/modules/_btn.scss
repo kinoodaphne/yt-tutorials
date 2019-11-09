@@ -1,0 +1,54 @@
+@import "modules/variables";
+
+.btn-white {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -webkit-linear-gradient(top right, $main-green, $main-blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-group {
+    position: relative;
+    z-index: 1;
+}
+
+.white-bg {
+    background-color: white;
+    display: block;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    border-radius: 3px;
+}
+
+.btn-color {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: $main-gradient;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 3px;
+}
+
+.btn-green {
+    color: $main-green;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

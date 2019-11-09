@@ -1,0 +1,44 @@
+@import "modules/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    font-family: $main-font, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: $main-black;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: $main-black;
+}
+
+p, li {
+    font-size: 16px;
+    font-weight: 400;
+    color: $main-black;
+}
+
+span {
+    color: $main-green;
+}
+
+@import "modules/btn";
+@import "modules/nav";
