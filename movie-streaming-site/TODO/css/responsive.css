@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 100vh;
+        min-height: 1000px;
+    }
+
+    header h1 {
+        margin-top: 50px;
+        margin-bottom: 40px; 
+    }
+
+    .call-to-action {
+        width: 90%;
+    }
+
+    .ipad {
+        display: none;
+    }
+
+    .iphone {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .new-4k-movies ul {
+        flex-direction: column;
+    }
+}
